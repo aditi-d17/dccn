@@ -1,0 +1,60 @@
+what is a packet?
+A network packet is a small amount of data sent over Transmission Control Protocol/Internet 
+Protocol (TCP/IP) networks. The packet size is around 1.5 kilobytes for Ethernet and 64 KB 
+for IP payloads.Similar to a real-life package, each packet includes a source and destination
+as well as the content (or data) being transferred.A network packet is divided into three 
+parts; the header, payload, and trailer.The header contains information about the packet, 
+such as its origin and destination IP addresses (an IP address is like a computer's mailing 
+address). The payload is the actual data.Sometimes called the footer, trailers are bits that 
+signify the end of a packet. These bits inform the receiving device that it has reached the 
+end of the packet.
+
+what is static routing?
+Static routing is a form of routing that occurs when a router uses a manually-configured 
+routing entry, rather than information from dynamic routing traffic. In many cases, 
+static routes are manually configured by a network administrator by adding in entries into a 
+routing table, though this may not always be the case.
+advantages of static rouitng:
+Static routes are not advertised over the network, resulting in better security.
+Static routes use less bandwidth than dynamic routing protocols, as routers do not exchange 
+routes.
+
+what is dynamic routing?
+Dynamic routing, also called adaptive routing, is a process where a router can forward data 
+via a different route for a given destination based on the current conditions of the 
+communication circuits within a system.
+
+what is BGP routing? / what is BGP routing used for?
+Border Gateway Protocol (BGP) refers to a gateway protocol that enables the internet to 
+exchange routing information between autonomous systems (AS). As networks interact with each 
+other, they need a way to communicate. This is accomplished through peering. BGP makes 
+peering possible.
+
+what is autonomous system?
+The Internet is a network of networks. It is broken up into hundreds of thousands of smaller 
+networks known as autonomous systems (ASes).
+
+OSPF
+Open Shortest Path First (OSPF) is a link-state routing protocol that is used to find the 
+best path between the source and the destination router using its own Shortest Path First.
+Open Shortest Path First (OSPF) is a link-state routing protocol that was developed for IP 
+networks and is based on the Shortest Path First (SPF) algorithm. OSPF is an Interior Gateway 
+Protocol (IGP).
+
+RIP
+Routing Information Protocol (RIP) is a distance vector protocol that uses hop count as its 
+primary metric. RIP defines how routers should share information when moving traffic among 
+an interconnected group of local area networks (LANs).
+Routing Information Protocol (RIP) is a dynamic routing protocol that uses hop count as a 
+routing metric to find the best path between the source and the destination network.
+
+LAN and VLAN
+LAN stands for Local Area Network is a group of network devices which allow the 
+communication between connected devices. On the other hand VLAN stands for Virtual Local 
+Area Network which is used to enhance the performance of LANs (Local Area Networks).
+
+VLAN/ purpose of VLAN
+VLANs allow network administrators to automatically limit access to a specified group of 
+users by dividing workstations into different isolated LAN segments. When users move their 
+workstations, administrators don't need to reconfigure the network or change VLAN groups
+

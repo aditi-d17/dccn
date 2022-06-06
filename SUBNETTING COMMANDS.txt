@@ -1,0 +1,20 @@
+192.168.10.1 to 192.168.10.69
+192.168.10.70 to 192.168.10.129
+192.168.10.130 to 192.168.10.199
+192.168.10.200 to 192.168.10.255
+
+ROUTER
+1.config
+2.interface f0/0
+3. no shutdown 
+4.(config-if) int fa0/0.10
+5.(config-subif) #en
+6. encapsulation dot1Q 10
+7.ip address 192.168.10.1 255.255.255.0
+8. no shutdown
+9.encapsulation
+10.encapsulation dot1Q 20
+11.ip address 192.168.10.70 255.255.255.0
+12. no shutdown 
+
+CONTINUE FOR ALL 4 N/Ws
